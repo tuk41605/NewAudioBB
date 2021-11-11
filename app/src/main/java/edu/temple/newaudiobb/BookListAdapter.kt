@@ -3,18 +3,16 @@ package edu.temple.newaudiobb
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
-class BookListAdapter (_bookList: BookList, _onClick: (Book) -> Unit) : RecyclerView.Adapter<BookListAdapter.BookViewHolder>() {
-    val bookList = _bookList
-    val onClick = _onClick
+// This class did not really have to be changed from the professor's original code
 
-    // Assigning the book directly to the onClick function instead of the View
-    // That leaves less/no work in the callback itself
-    // (no need to look up the book object associated with the view)
-    class BookViewHolder (layout : View, onClick : (Book) -> Unit): RecyclerView.ViewHolder (layout) {
+class BookListAdapter(_bookList :BookList, _onClick: (Book) -> Unit): RecyclerView.Adapter<BookListAdapter.BookViewHolder>() {
+    private val bookList = _bookList
+    private val onClick = _onClick
+
+    class BookViewHolder(layout: View, onClick: (Book) -> Unit): RecyclerView.ViewHolder(layout){
         val titleTextView : TextView
         val authorTextView: TextView
         lateinit var book: Book
@@ -25,7 +23,6 @@ class BookListAdapter (_bookList: BookList, _onClick: (Book) -> Unit) : Recycler
                 onClick(book)
             }
         }
-
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): BookViewHolder {
@@ -42,5 +39,4 @@ class BookListAdapter (_bookList: BookList, _onClick: (Book) -> Unit) : Recycler
     override fun getItemCount(): Int {
         return bookList.size()
     }
-
 }

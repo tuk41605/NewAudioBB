@@ -3,12 +3,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Tyler/AndroidStudioProjects/NewAudioBB/app/src/main/res/layout-land/activity_main.xml" value="0.4691358024691358" />
+        <entry key="..\:/Users/Tyler/AndroidStudioProjects/NewAudioBB/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.4203125" />
+        <entry key="..\:/Users/Tyler/AndroidStudioProjects/NewAudioBB/app/src/main/res/drawable/gradient_background.xml" value="0.4203125" />
+        <entry key="..\:/Users/Tyler/AndroidStudioProjects/NewAudioBB/app/src/main/res/drawable/ic_launcher_background.xml" value="0.4203125" />
+        <entry key="..\:/Users/Tyler/AndroidStudioProjects/NewAudioBB/app/src/main/res/layout-land/activity_main.xml" value="0.37222222222222223" />
         <entry key="..\:/Users/Tyler/AndroidStudioProjects/NewAudioBB/app/src/main/res/layout-large/activity_main.xml" value="0.415625" />
-        <entry key="..\:/Users/Tyler/AndroidStudioProjects/NewAudioBB/app/src/main/res/layout/booklist_items_layout.xml" value="0.5541666666666667" />
-        <entry key="..\:/Users/Tyler/AndroidStudioProjects/NewAudioBB/app/src/main/res/layout/fragment_book_details.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/Tyler/AndroidStudioProjects/NewAudioBB/app/src/main/res/layout/activity_main.xml" value="0.4" />
+        <entry key="..\:/Users/Tyler/AndroidStudioProjects/NewAudioBB/app/src/main/res/layout/book_search.xml" value="0.32653985507246375" />
+        <entry key="..\:/Users/Tyler/AndroidStudioProjects/NewAudioBB/app/src/main/res/layout/booklist_items_layout.xml" value="0.48327759197324416" />
+        <entry key="..\:/Users/Tyler/AndroidStudioProjects/NewAudioBB/app/src/main/res/layout/fragment_book_details.xml" value="0.48327759197324416" />
         <entry key="..\:/Users/Tyler/AndroidStudioProjects/NewAudioBB/app/src/main/res/layout/fragment_book_list.xml" value="0.5541666666666667" />
         <entry key="..\:/Users/Tyler/AndroidStudioProjects/NewAudioBB/app/src/main/res/layout/two_pane_layou.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/Tyler/AndroidStudioProjects/NewAudioBB/app/src/main/res/layout/two_pane_layout.xml" value="0.4041666666666667" />
+        <entry key="..\:/Users/Tyler/AndroidStudioProjects/NewAudioBB/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.36302083333333335" />
+        <entry key="..\:/Users/Tyler/AndroidStudioProjects/NewAudioBB/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.36302083333333335" />
       </map>
     </option>
   </component>

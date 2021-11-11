@@ -2,21 +2,27 @@ package edu.temple.newaudiobb
 
 import java.io.Serializable
 
-class BookList : Serializable{
-    private val bookList : MutableList<Book> by lazy {
+// It wasn't necessary to alter this file very much from the professor's code
+object BookList : Serializable {
+
+    private val BOOK_LIST : MutableList<Book> by lazy {
         ArrayList()
     }
 
     fun add(book: Book) {
-        bookList.add(book)
+        BOOK_LIST.add(book)
     }
 
     fun remove(book: Book){
-        bookList.remove(book)
+        BOOK_LIST.remove(book)
     }
 
-    operator fun get(index: Int) = bookList[index]
+    fun clear(){
+        BOOK_LIST.clear()
+    }
 
-    fun size() = bookList.size
+    operator fun get(index: Int) = BOOK_LIST[index]
+
+    fun size() = BOOK_LIST.size
 
 }
